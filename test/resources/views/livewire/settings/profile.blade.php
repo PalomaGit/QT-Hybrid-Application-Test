@@ -29,6 +29,9 @@
                 @endif
             </div>
 
+            <flux:input wire:model="Avatar" :label="__('Avatar')" type="file" required autocomplete="Avatar" />
+
+
             <div class="flex items-center gap-4">
                 <div class="flex items-center justify-end">
                     <flux:button variant="primary" type="submit" class="w-full">{{ __('Save') }}</flux:button>
